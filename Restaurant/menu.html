@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: #ff7720;
+    }
+
+    @media (max-width: 858px) {
+        .title h4 {
+            text-transform: capitalize;
+            font-size: 20px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+
+        .wrapper {
+            width: 100%;
+            margin: 60px auto;
+            display: inline-block;
+            position: fixed;
+            display: contents;
+        }
+
+
+
+
+        body {
+            width: 60%;
+            display: contents;
+        }
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body {
+        font-family: 'Poppins'sans-serif;
+    }
+
+
+
+
+    .title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .title h4 {
+        text-transform: capitalize;
+        font-size: 36px;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    .title h4 span {
+        display: block;
+        font-size: 18px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+
+    .title h4::before {
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        box-decoration-break: #ff7720;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .menu {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+
+    .single-menu {
+        flex-basis: 580px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+
+    }
+
+    .single-menu:nth-child(5),
+    .single-menu:nth-child(6) {
+        border-bottom: 0;
+    }
+
+    .single-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .single-menu:hover {
+        border-radius: 0;
+
+    }
+
+    .single-menu img {
+        max-width: 180px;
+        margin-right: 30px;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        padding: 3px;
+        transition: 5s;
+    }
+
+    .single-menu h4 {
+        text-transform: capitaliz;
+        font-size: 22px;
+        border-bottom: 1px dashed #333;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .single-menu h4 span {
+        float: right;
+        color: #ff7720;
+        font-style: italic;
+
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h4><span>fresh food</span>Our menu</h4>
+        </div>
+        <div class="menu">
+            <div class="single-menu">
+                <img src="files/plat.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Chicken salad <span>$50</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="single-menu">
+                    <img src="files/food.jpg" alt="">
+                    <div class="menu-content">
+                        <h4>Chicken salad <span>$50</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="single-menu">
+                        <img src="files/plat.jpg" alt="">
+                        <div class="menu-content">
+                            <h4>Chicken salad <span>$50</span></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur </p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="single-menu">
+                            <img src="files/pasta.jpg" alt="">
+                            <div class="menu-content">
+                                <h4>Chicken salad <span>$50</span></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur </p>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <div class="single-menu">
+                                <img src="files/food.jpg" alt="">
+                                <div class="menu-content">
+                                    <h4>Chicken salad <span>$50</span></h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                                </div>
+                            </div>
+                            <div class="menu">
+                                <div class="single-menu">
+                                    <img src="files/daria.jpg" alt="">
+                                    <div class="menu-content">
+                                        <h4>Chicken salad <span>$50</span></h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+</body>
+
+</html>
